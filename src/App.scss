@@ -1,6 +1,6 @@
 @import './assets/style/index.scss';
 
-body {
+body, #root {
   @include flexCenter();
   width: 100vw;
   height: 100vh;

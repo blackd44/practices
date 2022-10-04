@@ -1,12 +1,29 @@
 import { Link } from 'react-router-dom'
+import { useEffect, useRef } from 'react'
 
 import './style.scss'
 
-import image from '../../assets/images/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.jpg'
+import image1 from '../../assets/images/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.jpg'
+import image2 from '../../assets/images/modern-house-kv-town-3d-model-low-poly-max-obj-3ds-fbx-stl.jpg'
+
+let images = [image1 ,image2]
 
 const Shop = (props) => {
+    let run = useRef(true)
+    let a = useRef(0)
+    
+    useEffect(() => {
+        if(run.current){
+            setInterval((image = document.querySelector('.content .img img')) => {
+                image.src = images[a.current % 2]
+                a.current ++
+            }, 5000)
+            run.current = false
+        }
+    }, [])
+    
     return(
-        <>
+        <main>
             <nav>
                 <div className='bars'>
                     <div></div>
@@ -31,14 +48,14 @@ const Shop = (props) => {
                     <div>buy now</div>
                     <div> {'>'} </div>
                   </div>
-                  <img alt="on Sale" src={image} />
+                  <img alt="on Sale" src={image1} />
                 </div>
             </div>
             <div className='bottomDiv'>
                 <div>Scroll Down</div>
                 <div>01/04</div>
             </div>
-        </>
+        </main>
     )
 }
 

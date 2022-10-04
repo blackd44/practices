@@ -1,6 +1,6 @@
 @import '../../assets/style/index.scss';
 
-#root {
+main {
     @include flexCenter();
   
     position: relative;
@@ -81,6 +81,7 @@
       position: absolute;
       right: 0;
       height: 80%;
+      max-width: 500px;
   
       div.button{
         position: absolute;
