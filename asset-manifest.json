@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/practices/static/css/main.2a01635d.css",
+    "main.js": "/practices/static/js/main.8b4620ef.js",
+    "static/js/787.635aedaa.chunk.js": "/practices/static/js/787.635aedaa.chunk.js",
+    "static/media/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.jpg": "/practices/static/media/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.3c1b050bc86ac725be2e.jpg",
+    "index.html": "/practices/index.html",
+    "main.2a01635d.css.map": "/practices/static/css/main.2a01635d.css.map",
+    "main.8b4620ef.js.map": "/practices/static/js/main.8b4620ef.js.map",
+    "787.635aedaa.chunk.js.map": "/practices/static/js/787.635aedaa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a01635d.css",
+    "static/js/main.8b4620ef.js"
+  ]
+}
