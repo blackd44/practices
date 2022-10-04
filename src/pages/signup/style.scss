@@ -15,7 +15,7 @@ main.signup{
         @include flexCenterX;
         max-width: 600px;
         width: 90%;
-        height: 60%;
+        min-height: 60%;
         border: 1px solid #00599d66;
         border-radius: 5px;
         background-color: #001d3366;
@@ -66,6 +66,12 @@ main.signup{
                     background-color: $cyan;
                     font-weight: bold;
                     text-transform: uppercase;
+                    &:hover, &:focus {
+                        background-color: #1e595847;
+                    }
+                    &:disabled {
+                        background-color: #66520e61;
+                    }
                 }
             }
         }
