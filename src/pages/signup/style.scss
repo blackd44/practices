@@ -11,7 +11,7 @@ main.signup{
     background-size: cover;
     background-position: center;
     color: $grey;
-    > div{
+    > div {
         @include flexCenterX;
         max-width: 600px;
         width: 90%;
