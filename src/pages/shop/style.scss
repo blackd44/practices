@@ -1,6 +1,6 @@
 @import '../../assets/style/index.scss';
 
-main {
+main.shop {
     @include flexCenter();
   
     position: relative;
@@ -34,7 +34,7 @@ main {
         width: 100%;
         height: 3px;
         border-radius: 3px;
-        background-color: $colorOne;
+        background-color: $grey;
       }
       div:nth-of-type(2) {
         width: 70%;
@@ -51,11 +51,11 @@ main {
         padding: 0 2rem;
       }
       a{
-        color: $colorOne;
+        color: $grey;
         text-decoration: none;
       }
       .active {
-        border-bottom: 2px solid $orangeColor;
+        border-bottom: 2px solid $orange;
       }
     }
   }
@@ -74,7 +74,7 @@ main {
       margin: 3rem 0 0 0;
       height: 2px;
       width: 100px;
-      background-color: $orangeColor;
+      background-color: $orange;
       transform: translateX(5px);
     }
     .img {
@@ -90,19 +90,19 @@ main {
         left: -119.5px;    
         bottom: 2rem;
         z-index: 1;
-        background-color: $background;
+        background-color: $white;
         display: flex;
   
         > * {
           padding: .5rem 1rem;
-          color: $colorTwo;
+          color: $darkgrey;
         }
   
         div:first-of-type {
           box-shadow: 0px 6px 15px #3332;
         }
         div:last-of-type {
-          background-color: $orangeColor;
+          background-color: $orange;
           height: 100%;
         }
       }
@@ -121,7 +121,7 @@ main {
       height: 100%;
       width: 70%;
       background-color: white;
-      color: $colorOne;
+      color: $grey;
       
       > * {
         margin-left: 3rem;
@@ -144,5 +144,5 @@ main {
     position: absolute;
     bottom: 0;
     padding: 0.6rem 0;
-    color: $colorOne;
+    color: $grey;
   }

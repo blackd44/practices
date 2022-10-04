@@ -23,7 +23,7 @@ const Shop = (props) => {
     }, [])
     
     return(
-        <main>
+        <main className='Shop'>
             <nav>
                 <div className='bars'>
                     <div></div>
