@@ -50,12 +50,17 @@ main.signup{
 
                     padding: 0.7rem 1rem;
                     font-size: 100%;
-                    margin: 0.3rem 0;
+                    margin: 0.35rem 0;
                     background-color: #ccc2;
                     color: $white;
                     border: none;
                     outline: none;
-                    &:hover, &:focus {
+                    transition: 1s ease;
+                    &:hover {
+                        background-color: #1e595847;
+                    }
+                    &:focus, &:valid {
+                        outline: 1px solid #008cff53;
                         background-color: #1e595847;
                     }
                 }
@@ -66,7 +71,7 @@ main.signup{
                     background-color: $cyan;
                     font-weight: bold;
                     text-transform: uppercase;
-                    &:hover, &:focus {
+                    &:hover, &:focus, &:valid {
                         background-color: #006bc5ab;
                     }
                     &:disabled {
