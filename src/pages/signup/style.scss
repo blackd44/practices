@@ -56,12 +56,11 @@ main.signup{
                     border: none;
                     outline: none;
                     transition: 1s ease;
-                    &:hover {
+                    &:hover, &:valid, &:focus {
                         background-color: #1e595847;
                     }
-                    &:focus, &:valid {
+                    &:focus {
                         outline: 1px solid #008cff53;
-                        background-color: #1e595847;
                     }
                 }
                 
