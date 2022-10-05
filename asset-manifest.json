@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/practices/static/css/main.c470fdab.css",
+    "main.css": "/practices/static/css/main.1d168b96.css",
     "main.js": "/practices/static/js/main.0e4fe2a3.js",
     "static/js/787.635aedaa.chunk.js": "/practices/static/js/787.635aedaa.chunk.js",
     "static/media/nasa-Q1p7bh3SHj8-unsplash.jpg": "/practices/static/media/nasa-Q1p7bh3SHj8-unsplash.de5659898d3bfc5eb8ea.jpg",
     "static/media/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.jpg": "/practices/static/media/01-Six-Elements-of-Modern-House-Design-You-Need-to-Know.3c1b050bc86ac725be2e.jpg",
     "static/media/modern-house-kv-town-3d-model-low-poly-max-obj-3ds-fbx-stl.jpg": "/practices/static/media/modern-house-kv-town-3d-model-low-poly-max-obj-3ds-fbx-stl.10a0f0726f292a6d9a03.jpg",
     "index.html": "/practices/index.html",
-    "main.c470fdab.css.map": "/practices/static/css/main.c470fdab.css.map",
+    "main.1d168b96.css.map": "/practices/static/css/main.1d168b96.css.map",
     "main.0e4fe2a3.js.map": "/practices/static/js/main.0e4fe2a3.js.map",
     "787.635aedaa.chunk.js.map": "/practices/static/js/787.635aedaa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c470fdab.css",
+    "static/css/main.1d168b96.css",
     "static/js/main.0e4fe2a3.js"
   ]
 }
