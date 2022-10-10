@@ -1,0 +1,73 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 103%;
+}
+.food {
+    min-height: 100%;
+    width: 100%;
+    background-color: #d7d7d7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food > div {
+    min-height: 200px;
+    height: 350px;
+    min-width: 500px;
+    width: 900px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    contain: content;
+}
+.food > div > .image {
+    height: 100%;
+    width: 48%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.food > div > .foodcontent {
+    height: 100%;
+    width: calc(52% - 1.3rem);
+    padding: 0 1.3rem;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.food > div > .foodcontent > * {
+    color: #000000d1;
+    margin: 0;
+    font-weight: 500;
+    font-size: 110%;
+}
+.food > div > .foodcontent h4 {
+    display: block;
+    margin: 1rem 0 1.5rem;
+    font-weight: bold;
+    color: #f65ea7;
+}
+.food > div > .foodcontent > *:first-of-type {
+    padding-top: 2rem;
+    text-transform: uppercase;
+}
+.food > div > .foodcontent > *:first-of-type span {
+    border-bottom: 1px solid #2223;
+}
+.food > div > .foodcontent > *:nth-child(2) > p{
+    max-height: 230px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
+}
+.food > div > .foodcontent > *:last-of-type {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #2223;
+}
