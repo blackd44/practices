@@ -23,6 +23,7 @@
     align-items: center;
     border-radius: 10px;
     contain: content;
+    box-shadow: 7px 7px 13px #0001;
 }
 .food > div > .image {
     height: 100%;

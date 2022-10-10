@@ -16,7 +16,17 @@ const Food = ( ) => {
                         <span>food recipe</span>
                     </div>
                     <div>
-                        <h4>How to become a good chef</h4>
+                        <h4>
+                            <Typed
+                                strings={[
+                                    'How to become a good chef',
+                                    'Chef Training',
+                                    'Become a professional chef']}
+                                    typeSpeed={80}
+                                    backSpeed={50}
+                                    loop 
+                            />
+                        </h4>
                         <p>
                             You might decide to become a chef because you enjoy cooking and like to experiment in kitchen.
                             While it's a demanding career, it can also be very satisfying if it's something you love and you wish to 
