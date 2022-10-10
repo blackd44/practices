@@ -14,7 +14,7 @@
 .food > div {
     min-height: 200px;
     height: 350px;
-    min-width: 500px;
+    max-width: 90%;
     width: 900px;
     position: relative;
     display: flex;
@@ -34,7 +34,7 @@
 }
 .food > div > .foodcontent {
     height: 100%;
-    width: calc(52% - 1.3rem);
+    width: calc(52% - 2.6rem);
     padding: 0 1.3rem;
     background-color: #eee;
     display: flex;
@@ -52,6 +52,10 @@
     margin: 1rem 0 1.5rem;
     font-weight: bold;
     color: #f65ea7;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical; 
+    overflow: hidden;
 }
 .food > div > .foodcontent > *:first-of-type {
     padding-top: 2rem;
@@ -71,4 +75,27 @@
     padding-bottom: 2rem;
     padding-top: 1rem;
     border-top: 1px solid #2223;
+}
+
+@media screen and (max-width: 800px ){
+    .food > div {
+        flex-direction: column;
+        height: auto;
+        max-width: 85%;
+        margin: 2rem 0;
+    }
+    .food > div > .image {
+        height: 300px;
+        width: 100%;
+    }
+    .food > div > .foodcontent {
+        height: fit-content;
+        width: calc(100% - 2.6rem);
+    }
+    .food > div > .foodcontent h4 {
+        font-size: 90%;
+    }
+    .food > div > .foodcontent > *:first-of-type {
+        padding-top: 1rem;
+    }
 }
